@@ -1,11 +1,17 @@
 import React from 'react';
 import Review from './Review';
-import { GoMarkGithub } from 'react-icons/go';
+
 function App() {
   return (
-    <h2>
-      reviews project setup <GoMarkGithub />
-    </h2>
+    <main>
+      <section className="container">
+        <div className="title">
+          <h2>our Reviews</h2>
+          <div className="underline"></div>
+        </div>
+        <Review />
+      </section>
+    </main>
   );
 }
 
